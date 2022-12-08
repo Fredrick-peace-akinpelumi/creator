@@ -111,7 +111,9 @@ const Form = () => {
     }
 
     const viewCv =()=>{
+        if (!firstName || !lastName || !address || !email || !phone_no || !profile|| !expArray|| !eduArray || !hobbyArray|| !skillsArray || !desc) return setmessage("Please input nesseccary details");
         router.push('/template')
+        setmessage("")
     }
 
   return (
