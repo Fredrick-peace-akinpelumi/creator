@@ -1,11 +1,14 @@
 
-import React from 'react'
-import Form from '../component/Form'
+import React ,{useState}from 'react'
+import Register from '../component/Register'
 
-const index = () => {
+const Index = () => {
+  const [login, setlogin] = useState(false)
   return (
-    <Form/>
+    <>
+    <Register/>
+    </>
   )
 }
 
-export default index
+export default Index

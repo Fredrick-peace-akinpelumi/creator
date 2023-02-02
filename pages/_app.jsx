@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import Form from '../component/Form';
-
+import Register from '../component/Register'
 function MyApp({ Component, pageProps }) {
   return<>
   

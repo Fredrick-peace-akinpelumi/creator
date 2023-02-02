@@ -40,3 +40,10 @@ a {
   
 }
 
+.gif{
+  position: absolute;
+  display: flex;
+  margin-left: 50vh;
+  margin-top: -60vh;
+}
+
