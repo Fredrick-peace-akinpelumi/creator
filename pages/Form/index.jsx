@@ -134,7 +134,7 @@ const Form = () => {
       skills: skillsArray,
       userId: cookies.currentUser,
     };
-    axios.post("http://localhost:4000/", userDetails).then((res) => {
+    axios.post("https://creator-zw9x.onrender.com/", userDetails).then((res) => {
       console.log(res);
     });
     setLoading(false);
