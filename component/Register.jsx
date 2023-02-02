@@ -97,7 +97,7 @@ const Register = () => {
 
       <div className=" container" >
         {state == true ? (
-          <div className=" mt-5 p-5 col-lg-4 mx-auto" style={{backgroundColor:"#f2f2fc"}}>
+          <div className=" mt-lg-5 p-5 col-lg-4 mx-auto" style={{backgroundColor:"#f2f2fc"}}>
             <div className="row">
               <h1>Register now</h1>
               <input
@@ -138,7 +138,7 @@ const Register = () => {
             </div>
           </div>
         ) : (
-          <div className=" mt-5 p-5 col-lg-4 mx-auto" style={{backgroundColor:"#f2f2fc"}}>
+          <div className=" mt-lg-5 p-5 col-lg-4 mx-auto" style={{backgroundColor:"#f2f2fc"}}>
             <div className="row">
               <h1>Welcome back</h1>
               <input
@@ -174,7 +174,7 @@ const Register = () => {
           </div>
         )}
 
-        <div className="col-lg-4 mt-1 alert mx-auto alert-info">
+        <div className="col-lg-4 mt-2 alert mx-auto alert-info">
           
             <b className="text-primary">Dev CvCreator </b>is here for
             young and great developers looking for jobs, we are interested in

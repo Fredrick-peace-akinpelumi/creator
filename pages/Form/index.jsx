@@ -173,7 +173,7 @@ const Form = () => {
       <Head>
         <title>Cv creator</title>
       </Head>
-      <div className="container mt-2">
+      <div className="container mt-3">
         <div className="row">
           <ToastContainer />
           <div className="col-lg-6 shadow p-4">
