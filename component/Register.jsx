@@ -7,7 +7,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import gif from "../public/loading.gif";
 import Image from "next/image";
-import Login from "./Login";
+
 import { useCookies } from "react-cookie";
 import { Footer } from "./Footer";
 

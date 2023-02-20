@@ -2,6 +2,7 @@ import axios from 'axios'
 import React ,{useState,useEffect}from 'react'
 import {useCookies} from "react-cookie"
 import Router, { useRouter } from "next/router";
+import { toast, ToastContainer } from "react-toastify";
 
 
 const useFetchDetails = () => {
@@ -25,11 +26,11 @@ const useFetchDetails = () => {
             console.log(value.data.value)
           }
         }).catch((err)=>{
-          
+          toast.error(err, { position: toast.POSITION.TOP_CENTER })
         })
       }
     }
-  return ([first,])
+    return ([first,])
 }
 
 export default useFetchDetails

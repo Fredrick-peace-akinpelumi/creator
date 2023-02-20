@@ -4,6 +4,7 @@ import ReactToPrint from "react-to-print";
 import { PulseLoader } from 'react-spinners';
 import useFetchDetails from "../../customHooks/useFetchDetails";
 import { Footer } from "../../component/Footer";
+import { toast, ToastContainer } from "react-toastify";
 // import '../../styles/global.css';
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
 
   return (
     <>
+
       <ReactToPrint
         trigger={() => {
           return (
@@ -32,6 +34,7 @@ const Index = () => {
       />
 
       <div className="container " ref={componentRef}>
+      <ToastContainer />
         <div className="row">
           <div
             className=" p-2 main"
